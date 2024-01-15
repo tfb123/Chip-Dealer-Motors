@@ -1,0 +1,41 @@
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.topnav {
+    overflow: hidden;
+    height: 80px;
+    background-color: rgb(26, 22, 78);
+    font-family: 'Roboto', sans-serif;
+}
+
+.topnav a {
+    float: left;
+    padding: 30px 34px;
+    color: #f2f2f2;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    transition: background .4s linear, color .4s linear;
+}
+
+.topnav a#logo {
+    padding: 0px;
+}
+
+.topnav a img {
+    float: left;
+    max-height: 80px;
+    min-height: 80px;
+    text-align: center;
+}
+
+.topnav a.right {
+    float: right;
+}
+
+.topnav a:hover {
+    background-color: rgb(179, 187, 197);
+    color: black;
+}

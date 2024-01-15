@@ -1,0 +1,67 @@
+body {
+    background-color: ghostwhite;
+}
+
+h1.head {
+    height: 110px;
+    line-height: 110px;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: black;
+    font-family: 'Lato', sans-serif;
+    margin: 0px auto;
+}
+
+#message {
+    margin: 0px;
+    text-align: center;
+    font-size: 16px;
+    height: 18px;
+    color: red;
+}
+
+.paraForm {
+    font-size: 23px;
+    margin: 0px;
+    margin-top: 5px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+
+.cbox {
+    text-align: center;
+}
+
+fieldset {
+    width: 60%;
+    margin: 0px auto;
+    margin-top: 20px;
+}
+
+fieldset label, fieldset legend, fieldset input, fieldset select {
+    font-size: 20px;
+}
+
+.padding {
+    text-align: center;
+    padding-bottom: 60px;
+}
+
+form button {
+    display: block;
+    margin: 0px auto;
+    margin-top: 50px;
+    padding: 22px 45px;
+    font-size: 16px;
+    background: rgb(69, 11, 229);
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:active {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.8);
+}

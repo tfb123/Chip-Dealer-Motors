@@ -1,0 +1,90 @@
+body {
+    background: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)), url(Logo_and_background_pictures/contact_us.png) no-repeat center center fixed;
+    background-size: cover;
+}
+
+.header {
+    margin-top: 153px;
+    margin-bottom: 52px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.err_msg {
+    margin: 0px auto;
+    height: 20px;
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    font-size: 11px;
+    padding-left: 10px;
+    padding-right: 10px;
+    color: rgb(148, 0, 0);
+}
+
+.form {
+    width: 37%;
+    margin: 0px auto;
+}
+
+input, textarea {
+    font-family: Arial, Helvetica, sans-serif;
+    color: aliceblue;
+    font-size: 18px;
+    letter-spacing: 2px;
+    width: 100%;
+    margin: 20px 0;
+    background: none;
+    border: none;
+    border-bottom: 1px solid #0078ff;
+    resize: none;
+}
+
+*:focus {
+    outline: none;
+}
+
+textarea {
+    min-height: 70px;
+    max-height: 70px;
+}
+
+::-webkit-input-placeholder {
+    color: aliceblue;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+textarea::placeholder {
+    text-align:left;
+    transform: translateY(50px);
+}
+
+textarea:focus::placeholder, input:focus::placeholder {
+    color: transparent;
+}
+
+/* ↓ So autofill doesn't change background and font color! ↓ */
+input:-webkit-autofill, input:-webkit-autofill:hover, input:-webkit-autofill:focus, input:-webkit-autofill:active {
+    transition: background-color 5000s ease-in-out 0s !important;
+    -webkit-text-fill-color: aliceblue !important;
+}
+
+.send {
+    display: block;
+    margin: 0px auto;
+    margin-top: 75px;
+    padding: 22px 45px;
+    font-size: 16px;
+    background: rgb(69, 11, 229);
+    border: none;
+    border-radius: 4px;
+    color: white;
+    cursor: pointer;
+}
+
+.send:active {
+    box-shadow: 3px 2px 22px 1px rgba(0, 0, 0, 0.8);
+}

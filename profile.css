@@ -1,0 +1,153 @@
+.student-profile .table th,
+.student-profile .table td {
+    font-size: 14px;
+    padding: 5px 10px;
+    color: #000;
+}
+
+.student-profile .card p {
+    font-size: 16px;
+    color: #000;
+}
+
+.student-profile .card h3 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.student-profile .card .card-header .profile_img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin: 10px auto;
+    border: 10px solid #ccc;
+    border-radius: 50%;
+}
+
+.student-profile .card {
+    border-radius: 10px;
+}
+
+.block{
+    border-radius: 25px;
+    margin:15px 0px 15px 0px;
+    background-color: #1a164e32;
+    border: 1px solid white;
+    min-width: 500px;
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+
+input {
+    width: 60%;
+    padding: 12px 20px;
+    margin-bottom: 10px;
+    border: 2px solid #1a164e32;
+    border-radius: 20px;
+    outline: none;
+    background: rgba(54, 49, 118, 0.18);
+    font-size: 18px;
+    box-sizing: border-box;
+}
+
+button {
+    background-color: #1a164e;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    opacity: 0.9;
+    padding-bottom: 10px;
+}
+  
+button:hover {
+    opacity:1;
+}
+
+.cancelbtn, .deletebtn {
+    float: left;
+    width: 50%;
+}
+
+#delbtn {
+    width: 90%;
+}
+
+.cancelbtn {
+    background-color: #ccc;
+    color: black;
+}
+
+.deletebtn {
+    background-color: #f44336;
+}
+
+.container {
+    padding: 16px;
+    text-align: center;
+    min-width: 500px;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.7);
+    padding-top: 50px;
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 5% auto 15% auto;
+    border: 1px solid #888;
+    width: 80%;
+}
+
+hr {
+    border: 1px solid #f1f1f1;
+    margin-bottom: 25px;
+}
+
+.close {
+    position: absolute;
+    right: 35px;
+    top: 15px;
+    font-size: 40px;
+    font-weight: bold;
+    color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+    color: #f44336;
+    cursor: pointer;
+}
+
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+@media screen and (max-width: 300px) {
+    .cancelbtn, .deletebtn {
+        width: 100%;
+    }
+}
+
+#message {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    color: red;
+}

@@ -1,0 +1,82 @@
+body {
+    background-color: ghostwhite;
+}
+
+div#header {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+div#header h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+div.allGalleryObjects {
+    overflow: hidden;
+    padding-bottom: 20px;
+}
+
+div.gallery {
+    margin: 5px;
+    border: 1px solid #ccc;
+    float: left;
+    width: calc(25% - 10px);
+    background-color: aliceblue;
+    min-height: 630px;
+    max-height: 630px;
+    box-sizing: border-box;
+}
+
+div.gallery:hover {
+    border: 1px solid #777;
+}
+
+  div.gallery img {
+    width: 100%;
+    height: 347.812px;
+}
+
+div.model {
+    padding: 15px 15px 0px;
+    border-bottom: 1px solid #ccc;
+    text-align: center;
+    max-height: 55px;
+    min-height: 55px;
+}
+
+div.descName {
+    padding-bottom: 15px;
+    text-align: center;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: left;
+    border-top: 1px solid #ccc;
+    min-height: 190px;
+    max-height: 190px;
+}
+
+div.desc ul {
+    margin: 5px 0px;
+    display: block;
+}
+
+div.tableHeader h1 {
+    font-family: 'Lato', sans-serif;
+}
+
+.swiper .swiper-button-prev {
+    color: lightgreen;
+    top: 10%;
+    --swiper-navigation-size: 35px;
+    left: 20px;
+}
+
+.swiper .swiper-button-next {
+    color: lightgreen;
+    top: 10%;
+    --swiper-navigation-size: 35px;
+    right: 20px;
+}

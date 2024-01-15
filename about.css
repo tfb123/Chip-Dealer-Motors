@@ -1,0 +1,66 @@
+body {
+    background-color: ghostwhite;
+}
+
+.header {
+    position: relative;
+    padding-bottom: 50px;
+}
+
+#headerText {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, 0);
+    font-size: 45px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+}
+
+.para p {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 18px;
+    line-height: 1.67;
+    padding: 0px 100px;
+}
+
+.para p#marginBott {
+    margin-bottom: 0px;
+}
+
+.para p#marginTop {
+    margin-top: 0px;
+}
+
+.para img#image {
+    display: block;
+    margin: 0px auto;
+    margin-bottom: 20px;
+}
+
+.header img {
+    max-width: 100%;
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+}
+.textAboutPav {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 26px;
+    text-align: center;
+}
+.textAboutSecPav {
+    font-family: Arial,Helvetica,sans-serif;
+    font-size: 20px;
+}
+.textAboutSection {
+    display: inline-table;
+    width: 33%;
+}
+.infoAbout {
+    padding: 0px 100px;
+    padding-top: 30px;
+}
